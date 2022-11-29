@@ -563,13 +563,144 @@ background-attachment: fixed;
     min-height: 100%;
 }
 
-@media screen and  (min-width: 767px){
-    .card{
-        font-size: 2rem;
+
+
+@media screen and  (min-width: 320px) and (max-width: 1024px){
+    .casamiento{
+        font-size: 1.3rem;
 
     }
-      .body{
+    .matrimonio{
+        font-size: 1.5rem;
+        color: rgb(0, 0, 0);
 
-      } 
+    }
+    .vision{
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
 
+    }
+    .texto-n{
+        font-size: 2rem;
+       
+
+    }
+}
+
+@media screen and  (min-width: 320px) and (max-width: 1024px) {
+    .texto-boda2{
+        font-size: 1.2rem;
+
+    }
+    .texto-bodau{
+        font-size: 2rem;
+        color: rgb(155, 43, 28);
+
+    }
+    .texto-boda4{
+        font-size: 1.3rem;
+        color: rgb(0, 0, 0);
+
+    }
+    .texto-bodav{
+        font-size: 2rem;
+        color: rgb(155, 43, 28);
+       
+
+    }
+    .video {
+        font-size: 2rem;
+        z-index: -1;
+        
+}
+}
+
+@media screen and  (min-width: 320px) and (max-width: 1024px){
+    .elladijosi11{
+        font-size: 1rem;
+
+    }
+    .s{
+        font-size: 2rem;
+        color: rgb(161, 43, 28);
+        text-align: center;
+
+    }
+    .sofia{
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        text-align: center;
+
+    }
+    .fotografias{
+        font-size: 4rem;
+        text-align: left;
+        
+    }
+    .card-title{
+        font-size: 1.2rem;
+        z-index: -1;
+        
+}
+}
+ 
+
+@media screen and  (min-width: 320px) and (max-width: 1024px) {
+    .texto-boda{
+        font-size: 1rem;
+
+    }
+    .texto-boda5{
+        font-size: 1rem;
+        color: rgb(155, 43, 28);
+        text-align: center;
+
+    }
+    
+}
+@media screen and  (min-width: 320px) and (max-width: 1024px)  {
+    .texto-boda{
+        font-size: 1rem;
+
+    }
+    .texto-boda5{
+        font-size: 1rem;
+        color: rgb(155, 43, 28);
+        text-align: center;
+
+    }
+    
+}
    
+@media screen and  (min-width: 320px) and (max-width: 1024px)  {
+    .textob{
+        font-size: 1.6rem;
+        text-align: center;
+
+    }
+    .texton{
+        font-size: 1rem;
+        color: rgb(155, 43, 28);
+        text-align: center;
+
+    }
+    .P{
+        font-size: 1.2rem;
+        text-align: center;
+        
+
+    }
+    .card-title{
+        font-size: 1.5rem;
+        
+
+    }
+    .card-text{
+        font-size: 1.3rem;
+
+    }
+    .for{
+        font-size: 1.4rem;
+
+    }
+}
