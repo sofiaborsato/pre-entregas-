@@ -11,6 +11,10 @@
     
     }
 
+ body{
+    height: 100vh;
+    width: 100%;
+ }
 
 .titulos{ color: rgb(236, 243,158);
     background-color: rgba(19, 42, 19, 0.884);
@@ -228,7 +232,7 @@ background-attachment: fixed;
 }
 
 .galeria{
-    background-color: rgba(136, 161, 140, 0.897);
+    background-color: rgba(248, 213, 231, 0.897);
     width: 100%;
     margin:auto;
     display:flex;
@@ -243,7 +247,7 @@ background-attachment: fixed;
  object-fit: cover;
    margin-bottom: 20px;
    border-radius: 5px;
-   background-color: rgba(245, 185, 185, 0.849);
+   background-color: rgba(155, 132, 5, 0.849);
 }
   
 .texto-boda{
@@ -398,7 +402,7 @@ background-attachment: fixed;
 .texto-boda5{
     font-family: 'Nanum Myeongjo', serif;
     font-size: 2.7vh;
-    color: #f0e2dce1;
+    color: #030202e1;
     text-align: center;
 }
 
@@ -482,17 +486,17 @@ background-attachment: fixed;
     font-family: 'Nanum Myeongjo', serif;
     margin: 5%;
     color: rgba(16, 17, 16, 0.959);
-    font-size: 4vh;
+    font-size: 2rem;
     text-align: center;
 }
 
 .vision{
     font-family: 'Nanum Myeongjo', serif;
     color: rgba(16, 17, 16, 0.959);
-    font-size: 1.2rem;
+    font-size: 3rem;
     text-align: center;
     width: 85%;
-    margin: 7%;
+    
 }
 .btn{
     color: rgba(27, 26, 26, 0.726);
@@ -550,13 +554,13 @@ background-attachment: fixed;
     font-size: 1.5rem;
 }
 .section-vision{
-    background-image: url(../assets/images/manos.jpg);
+    background-image: url(../assets/images/anillos\ 6.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
     display:inline-block;
     z-index: -1;
-    filter:brightness(70%);
+    filter:brightness(100%);
     top:50%;
     left:50%;
     min-width: 100%;
@@ -565,19 +569,21 @@ background-attachment: fixed;
 
 
 
-@media screen and  (min-width: 320px) and (max-width: 1024px){
+@media screen and  (min-width: 412px){
     .casamiento{
         font-size: 1.3rem;
 
     }
     .matrimonio{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         color: rgb(0, 0, 0);
 
     }
     .vision{
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: rgb(0, 0, 0);
+        background-color: #ddadc94f;
+        
 
     }
     .texto-n{
@@ -587,7 +593,7 @@ background-attachment: fixed;
     }
 }
 
-@media screen and  (min-width: 320px) and (max-width: 1024px) {
+@media screen and  (min-width: 412px){
     .texto-boda2{
         font-size: 1.2rem;
 
@@ -615,7 +621,7 @@ background-attachment: fixed;
 }
 }
 
-@media screen and  (min-width: 320px) and (max-width: 1024px){
+@media screen and  (min-width: 412px){
     .elladijosi11{
         font-size: 1rem;
 
@@ -645,7 +651,7 @@ background-attachment: fixed;
 }
  
 
-@media screen and  (min-width: 320px) and (max-width: 1024px) {
+@media screen and  (min-width: 412px) {
     .texto-boda{
         font-size: 1rem;
 
@@ -658,13 +664,13 @@ background-attachment: fixed;
     }
     
 }
-@media screen and  (min-width: 320px) and (max-width: 1024px)  {
+@media screen and  (min-width: 412px){
     .texto-boda{
-        font-size: 1rem;
+        font-size: 1.2rem;
 
     }
     .texto-boda5{
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: rgb(155, 43, 28);
         text-align: center;
 
@@ -672,7 +678,7 @@ background-attachment: fixed;
     
 }
    
-@media screen and  (min-width: 320px) and (max-width: 1024px)  {
+@media screen and  (min-width: 579px) {
     .textob{
         font-size: 1.6rem;
         text-align: center;
@@ -691,12 +697,12 @@ background-attachment: fixed;
 
     }
     .card-title{
-        font-size: 1.5rem;
+        font-size: 1rem;
         
 
     }
     .card-text{
-        font-size: 1.3rem;
+        font-size: 1rem;
 
     }
     .for{
