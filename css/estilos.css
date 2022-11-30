@@ -14,7 +14,7 @@
  body{
     height: 100vh;
     width: 100%;
- }
+    }
 
 .titulos{ color: rgb(236, 243,158);
     background-color: rgba(19, 42, 19, 0.884);
@@ -137,10 +137,11 @@ nav ul li a:hover {
 
 .foot{
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     position: relative;
     text-decoration: none;
     width: 100%;
+    margin: 1%;
     }
 
 .boda{
@@ -296,7 +297,7 @@ background-attachment: fixed;
 }
 .form-label{
     font-family: 'Nanum Myeongjo', serif;
-    color: rgba(23, 163, 18, 0.788);
+    color: rgba(75, 69, 61, 0.788);
     border-bottom: 3px;
 
 }
@@ -304,13 +305,10 @@ background-attachment: fixed;
     font-family: 'Nanum Myeongjo', serif;
     color: rgba(8, 37, 7, 0.911);
     display:flex;
-    justify-content: space-evenly;
     align-items: center;
     background-color: rgba(168, 189, 54, 0.473);
-    margin: 1%;
-    padding: 1%;
     object-fit: cover;
-    height: 125vh;
+    height: 100vh;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -356,9 +354,10 @@ background-attachment: fixed;
 }
 
 .fott {
-    height: 40vh;
+    height: 10vh;
     object-fit: cover;
     width: 100%; 
+    
 }
    
 .row{
@@ -466,6 +465,7 @@ background-attachment: fixed;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
     color: rgba(8, 37, 7, 0.911);
+    padding: 1%;
 }
 
 .texto-bodau{
@@ -508,6 +508,9 @@ background-attachment: fixed;
 }
 .form-label{
     color: brown;
+}
+.form-check-label{
+    color: rgb(179, 25, 120);
 }
 
 .historia{
@@ -569,9 +572,10 @@ background-attachment: fixed;
 
 
 
-@media screen and  (min-width: 412px){
+@media screen and  (min-width: 412px) {
     .casamiento{
         font-size: 1.3rem;
+        color: rgb(53, 50, 50);
 
     }
     .matrimonio{
@@ -593,7 +597,7 @@ background-attachment: fixed;
     }
 }
 
-@media screen and  (min-width: 412px){
+@media screen and  (min-width: 412px) and (max-width:1023px){
     .texto-boda2{
         font-size: 1.2rem;
 
@@ -601,11 +605,15 @@ background-attachment: fixed;
     .texto-bodau{
         font-size: 2rem;
         color: rgb(155, 43, 28);
+        
 
     }
     .texto-boda4{
         font-size: 1.3rem;
         color: rgb(0, 0, 0);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+        
 
     }
     .texto-bodav{
@@ -621,9 +629,10 @@ background-attachment: fixed;
 }
 }
 
-@media screen and  (min-width: 412px){
+@media screen and  (min-width: 412px) and (max-width: 2000px){
     .elladijosi11{
         font-size: 1rem;
+        color: black;
 
     }
     .s{
@@ -651,7 +660,7 @@ background-attachment: fixed;
 }
  
 
-@media screen and  (min-width: 412px) {
+@media screen and  (min-width: 412px) and (max-width: 2000px) {
     .texto-boda{
         font-size: 1rem;
 
@@ -664,7 +673,7 @@ background-attachment: fixed;
     }
     
 }
-@media screen and  (min-width: 412px){
+@media screen and  (min-width: 412px) and (max-width:2193px){
     .texto-boda{
         font-size: 1.2rem;
 
@@ -678,7 +687,7 @@ background-attachment: fixed;
     
 }
    
-@media screen and  (min-width: 579px) {
+@media screen and  (min-width: 579px) and (max-width: 2193px) {
     .textob{
         font-size: 1.6rem;
         text-align: center;
@@ -709,4 +718,12 @@ background-attachment: fixed;
         font-size: 1.4rem;
 
     }
+}
+
+.icon{
+    text-align: center;
+    display: block;
+    letter-spacing: 10px;
+    text-decoration: none;
+   justify-content: space-between;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="shortcut icon" href="../assets/images/heart-svgrepo-com (1).svg" type="image/png"/>.
+    <link rel="shortcut icon" href="../assets/images/heart-svgrepo-com (1).svg" type="image/png"/>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
@@ -46,10 +46,8 @@
                 </nav>
         </header>
         <main>
-            <h1 class="titulos animate__animated animate__bounceInRight"> CONTACTO </h1> <!--estas imagenes en futuro irian bien alineadas en su tamaño promedio-->
-                 <br>
-                <div>
-                  <h3 class="textoregalo fs-1 animate__animated animate__bounceInRight  --animate-duration: 0.5s;"> Regalo de Bodas </h3>
+            <h1 class="titulos animate__animated animate__bounceInRight"> CONTACTO </h1> 
+                  <h3 class="textoregalo fs-1 animate__animated animate__bounceInRight  --animate-duration: 0.5s; my-4"> Regalo de Bodas </h3>
                   <h2 class="textob my-3 fs-3"> Buzon de Felicitaciones </h2>
                   <p class="texton fw-bold">¡ Envíanos tus Buenos Deseos ! </p>
                   <p class="P my-1 fw-bold">Sin compromisos , Si Algo nos quieren Regalar en efectivo lo Sabremos Apreciar 
@@ -57,35 +55,42 @@
                     Gracias por su presencia en este día tan Especial.</p>
                 </div>
 
-                 <form class="for">
-                    <div class="mb-3 shadow p-3 mb-5 bg-body rounded">
-                      <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text fst-italic">Gracias por Ser parte de Nuestra Boda.</div>
-                    </div>
-                    <div class="mb-3 shadow p-3 mb-5 bg-body rounded">
-                      <label for="exampleInputEmail1" class="form-label"> Dejanos tus buenos deseos  </label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="shadow p-3 mb-5 bg-body rounded">
-                      <label for="exampleInputPassword1" class="form-label">Email</label>
-                      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                      <div id="emailHelp" class="form-text fst-italic">En breve le llegaran todos los Datos en su Casilla de mail</div>
-                    </div>
-                    <div class="mb-3 form-check">
-                      
-                      <button type="submit" class="btn btn-success my-3 d-flex justify-content-center animate__animated animate__infinite   animation-duration: 2s; animate__pulse">Enviar</button>
-                      <input type="checkbox" class="form-check-input rounded-circle shadow-sm fs-4" id="exampleCheck1">
-                      <label class="form-check-label shadow-sm p-3 mb-5 bg-body rounded fs-4" for="exampleCheck1">Deseo Suscribirme</label>
-                    </div>
-                  </form>
+                          <form class="row g-3 my-4 ">
+                              <div class="mb-3 shadow p-3 mb-5 bg-body rounded ">
+                                  <label for="inputAddress" class="form-label  ">Nombre</label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="*" required>
+                              </div>
+                              <div class="mb-3 shadow p-3 mb-5 bg-body rounded">
+                                <label for="inputAddress" class="form-label">Déjanos tus Buenos Deseos </label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="*">
+                                <div id="emailHelp" class="form-text fst-italic">Gracias por compartirlo con Nosotros</div>
+                            </div>
+                              <div class="mb-3 shadow p-3 mb-5 bg-body rounded">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="*" required>
+                                <div id="emailHelp" class="form-text fst-italic">En breve le llegaran todos los Datos en su Casilla de mail</div>
+                              </div>
+                              <div class="col-12">
+                                <div class="form-check ">
+                                  <input class="form-check-input  rounded-circle shadow-sm fs-4" type="checkbox" checked id="gridCheck">
+                                  <label class="form-check-label fw-bold shadow-sm p-3 mb-5 bg-body rounded fs-6" for="gridCheck">
+                                    Deseo Suscribirme 
+                                  </label>
+                                </div>
+                              </div>
+                              <div>
+                                  <button class="boton btn btn-success my-3 d-flex justify-content-center animate__animated animate__infinite   animation-duration: 2s; animate__pulse" type="submit">Enviar</button>
+                              </div>
+                          </form>
+                      </div>    
+                  </div>        
+              </div>
                 <section class="tarjetas my-2">
                     <div class="card-group">
                       <div class="card">
                         <img src="../assets/images/b15.jpg" class="card-img-top" alt="foto1">
                         <div class="card-body">
-                          <h5 class="card-title">UNA BODA CON ANECDOTAS</h5>
+                          <h5 class="card-title">UNA BODA CON ANÉCDOTAS</h5>
                           <p class="card-text">Anectodas de como nos conocimos, el camino recorrido , los años , y las cosas vergonzosas que vivimos. </p>
                           <p class="card-text"><small class="text-muted">SOFI & SEBA </small></p>
                         </div>
@@ -93,7 +98,7 @@
                       <div class="card">
                         <img src="../assets/images/b14.jpg" class="card-img-top" alt="foto2">
                         <div class="card-body">
-                          <h5 class="card-title">NO FALTA EL CLASICO BALS</h5>
+                          <h5 class="card-title">NO FALTA EL CLÁSICO VALS</h5>
                           <p class="card-text">Momento familiar Clasico en toda boda que deja un Recuerdo Especial en todos los corazones.</p>
                           <p class="card-text"><small class="text-muted">SOFI & SEBA </small></p>
                         </div>
@@ -110,11 +115,17 @@
                 </section>
         </main>
          <br>
-        <footer class="foot">
-            <a href="https://msng.link/o/?sofia.borsato=ig"><img src="../assets/images/insta chiquito.svg" alt=""></a>
-            <a href="https://wa.me/3471623833?text=whatsapp"><img src="../assets/images/whatsapp chiquito.svg" alt=""></a> <!--luego en mi pagina van a ser botones con mas estilo 
-            que te lleve a los enlaces de mis redes-->
-            <p> 2022 Todos los derechos reservados </p>
+         <footer class="foot">           
+          <div class= "iconos">
+            <a href="https://msng.link/o/?sofia.borsato=ig" target="_blank" >
+              <img src="../assets/images/insta chiquito.svg" height="30" width="30"  alt=""></a>
+              <a href="https://wa.me/3471623833?text=whatsapp" target="_blank">
+              <img src="../assets/images/whatsapp chiquito.svg" height="30" width="30" alt=""></a>
+          </div> 
+         <div>
+          Copyright @ 2022 - desarrollado por
+          <a class="text-dark" href="" target="_blank">Borsato Sofia</a>
+          </div>
         </footer>
         <script src="../js/bootstrap.bundle.min.js"> 
         </script>
