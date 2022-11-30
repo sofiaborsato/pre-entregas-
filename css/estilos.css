@@ -16,16 +16,29 @@
     width: 100%;
     }
 
-.titulos{ color: rgb(236, 243,158);
-    background-color: rgba(19, 42, 19, 0.884);
-    font-size: 3rem;
+.titulos{ 
+    background-color: rgba(231, 178, 220, 0.295);
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
-    margin: auto;
-    padding: auto;
+    background-image: url(../assets/images/Corazon\ huella\ \(1\).png);
+    padding: 7%;
+    position:static;
+  
+}
+.tituloprincipal{
+    color: rgb(202, 83, 83);
+    background-color: rgba(231, 178, 220, 0.295);
+    font-size: 3.1rem;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 1%;
+    position:static;
 
 }
-
+.corazonrosa{
+    background-image: url(../assets/images/CORAZONCITO\ ROJO.svg);
+    padding: 1%; 
+}
 nav ul{
     list-style-type: none;
     display: inline-block;
@@ -141,7 +154,6 @@ nav ul li a:hover {
     position: relative;
     text-decoration: none;
     width: 100%;
-    margin: 1%;
     }
 
 .boda{
@@ -160,14 +172,14 @@ background-attachment: fixed;
 }
 
 .boda2{
-    background-image: url(./../assets/images/head54.jpg);
+    background-image: url(./../assets/images/portada\ 2.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
         
 }
 .boda3{
-    background-image: url(./../assets/images/head\ 169.jpg);
+    background-image: url(./../assets/images/head\ 169\ \(1\).jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -175,7 +187,7 @@ background-attachment: fixed;
     
 }
 .boda4{
-    background-image: url(./../assets/images/head\ 181.jpg);
+    background-image: url(./../assets/images/boda\ footer.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;  
@@ -336,6 +348,7 @@ background-attachment: fixed;
     text-align: center;
     width: 90%;
     margin: 6%; 
+    transition: transform 2s;
 }
 
 .elladijosi{
@@ -376,6 +389,13 @@ background-attachment: fixed;
     font-size: 3vh;
     text-align: left;
 }
+.intro{
+        font-family: 'Nanum Myeongjo', serif;
+        margin: 5%;
+        color: rgba(207, 62, 36, 0.829);
+        font-size: 1.6rem;
+        text-align: center;
+    }
 
 .textof{
     font-family: 'Nanum Myeongjo', serif;
@@ -410,7 +430,7 @@ background-attachment: fixed;
     margin: 5%;
     color: rgba(16, 17, 16, 0.959);
     font-size: 3vh;
-    text-align: left;
+    text-align: center;
 }
 .for{
     width: 50%;
@@ -526,7 +546,7 @@ background-attachment: fixed;
    height: auto;
 }
 
-.p{
+.P{
     text-align: center;
 }
 .card{
@@ -557,7 +577,7 @@ background-attachment: fixed;
     font-size: 1.5rem;
 }
 .section-vision{
-    background-image: url(../assets/images/anillos\ 6.jpg);
+    background-image: url(../assets/images/fondo\ verdecito.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -697,7 +717,6 @@ background-attachment: fixed;
         font-size: 1rem;
         color: rgb(155, 43, 28);
         text-align: center;
-
     }
     .P{
         font-size: 1.2rem;
@@ -726,4 +745,8 @@ background-attachment: fixed;
     letter-spacing: 10px;
     text-decoration: none;
    justify-content: space-between;
+}
+
+.fotografias:hover{
+    transform:scale(1.1,1.1);
 }
