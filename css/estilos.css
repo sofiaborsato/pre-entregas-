@@ -331,7 +331,6 @@ background-attachment: fixed;
     padding: 5%;
 }
 
-
 .s{
     
     text-align: left;
@@ -373,7 +372,7 @@ background-attachment: fixed;
     width: 100%; 
     
 }
-   
+ 
 .row{
     width: 80%;
     margin:auto;
@@ -592,7 +591,6 @@ background-attachment: fixed;
 }
 
 
-
 @media screen and  (min-width: 412px) {
     .casamiento{
         font-size: 1.3rem;
@@ -600,7 +598,7 @@ background-attachment: fixed;
 
     }
     .matrimonio{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         color: rgb(0, 0, 0);
 
     }
@@ -612,19 +610,19 @@ background-attachment: fixed;
 
     }
     .texto-n{
-        font-size: 2rem;
+        font-size: rem;
        
 
     }
 }
 
-@media screen and  (min-width: 412px) and (max-width:1023px){
+@media screen and  (min-width: 412px){
     .texto-boda2{
         font-size: 1.2rem;
 
     }
     .texto-bodau{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgb(155, 43, 28);
         
 
@@ -638,7 +636,7 @@ background-attachment: fixed;
 
     }
     .texto-bodav{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgb(155, 43, 28);
        
 
@@ -650,20 +648,20 @@ background-attachment: fixed;
 }
 }
 
-@media screen and  (min-width: 412px) and (max-width: 2000px){
+@media screen and  (min-width: 412px){
     .elladijosi11{
-        font-size: 1rem;
+        font-size: 1.1rem;
         color: black;
 
     }
     .s{
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: rgb(161, 43, 28);
         text-align: center;
 
     }
     .sofia{
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: rgb(0, 0, 0);
         text-align: center;
 
@@ -681,7 +679,7 @@ background-attachment: fixed;
 }
  
 
-@media screen and  (min-width: 412px) and (max-width: 2000px) {
+@media screen and  (min-width: 412px) {
     .texto-boda{
         font-size: 1rem;
 
@@ -694,7 +692,7 @@ background-attachment: fixed;
     }
     
 }
-@media screen and  (min-width: 412px) and (max-width:2193px){
+@media screen and  (min-width: 412px) {
     .texto-boda{
         font-size: 1.2rem;
 
@@ -708,7 +706,7 @@ background-attachment: fixed;
     
 }
    
-@media screen and  (min-width: 579px) and (max-width: 2193px) {
+@media screen and  (min-width: 412px){
     .textob{
         font-size: 1.6rem;
         text-align: center;
@@ -726,12 +724,12 @@ background-attachment: fixed;
 
     }
     .card-title{
-        font-size: 1rem;
+        font-size: 1.4rem;
         
 
     }
     .card-text{
-        font-size: 1rem;
+        font-size: 1.2rem;
 
     }
     .for{
@@ -740,14 +738,4 @@ background-attachment: fixed;
     }
 }
 
-.icon{
-    text-align: center;
-    display: block;
-    letter-spacing: 10px;
-    text-decoration: none;
-   justify-content: space-between;
-}
 
-.fotografias:hover{
-    transform:scale(1.1,1.1);
-}
