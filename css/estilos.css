@@ -164,7 +164,7 @@ background-attachment: fixed;
 
 }
 .boda1{
-    background-image: url(./../assets/images/head\ 133.jpg);
+    background-image: url(./../assets/images/fondo\ dorado\ 2.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 background-attachment: fixed;
@@ -172,14 +172,14 @@ background-attachment: fixed;
 }
 
 .boda2{
-    background-image: url(./../assets/images/portada\ 2.jpg);
+    background-image: url(./../assets/images/fondo\ dorado\ 2.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
         
 }
 .boda3{
-    background-image: url(./../assets/images/head\ 169\ \(1\).jpg);
+    background-image: url(./../assets/images/fondo\ dorado\ 2.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -187,7 +187,7 @@ background-attachment: fixed;
     
 }
 .boda4{
-    background-image: url(./../assets/images/boda\ footer.jpg);
+    background-image: url(./../assets/images/fondo\ dorado\ 2.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;  
@@ -255,9 +255,10 @@ background-attachment: fixed;
     height: 95%;
     gap: 3px;
     border-radius: 5px;
+    object-fit: cover;
 }
 .hijo{
- object-fit: cover;
+   object-fit: cover;
    margin-bottom: 20px;
    border-radius: 5px;
    background-color: rgba(155, 132, 5, 0.849);
