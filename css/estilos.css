@@ -20,7 +20,7 @@
     background-color: rgba(231, 178, 220, 0.295);
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
-    background-image: url(../assets/images/Corazon\ huella\ \(1\).png);
+    background-image: url(../assets/images/corazonhuella.jpg.png);
     padding: 7%;
     position:static;
   
@@ -36,7 +36,7 @@
 
 }
 .corazonrosa{
-    background-image: url(../assets/images/CORAZONCITO\ ROJO.svg);
+    background-image: url(../assets/images/corazon.jpg.svg);
     padding: 1%; 
 }
 nav ul{
@@ -147,14 +147,14 @@ nav ul li a:hover {
     }
 
 .boda{
-background-image: url(./../assets/images/foto\ sofi.jpg);
+background-image: url(./../assets/images/fotosofi.jpg.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 background-attachment: fixed;
 
 }
 .boda1{
-    background-image: url(./../assets/images/fondo\ dorado\ 2.jpg);
+    background-image: url(./../assets/images/fondodorado.jpg.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 background-attachment: fixed;
@@ -162,14 +162,14 @@ background-attachment: fixed;
 }
 
 .boda2{
-    background-image: url(./../assets/images/fondo\ dorado\ 2.jpg);
+    background-image: url(./../assets/images/fondodorado.jpg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
         
 }
 .boda3{
-    background-image: url(./../assets/images/fondo\ dorado\ 2.jpg);
+    background-image: url(./../assets/images/fondodorado.jpg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -177,7 +177,7 @@ background-attachment: fixed;
     
 }
 .boda4{
-    background-image: url(./../assets/images/fondo\ dorado\ 2.jpg);
+    background-image: url(./../assets/images/fondodorado.jpg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;  
@@ -567,7 +567,7 @@ background-attachment: fixed;
     font-size: 1.5rem;
 }
 .section-vision{
-    background-image: url(../assets/images/fondo\ verdecito.jpg);
+    background-image: url(../assets/images/fondoverdecito.jpg.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
