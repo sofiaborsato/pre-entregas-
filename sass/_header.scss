@@ -1,0 +1,42 @@
+.boda{ position:static;
+    top: 0px;
+    z-index: -10;
+    .logo { padding: 1%;   
+        height: 30%;
+        display: inline-block;
+    }
+}
+
+nav {
+	ul {
+		list-style-type: none;
+		display: inline-block;
+		margin-left: 50%;
+		position: relative;
+		li {
+			a {
+				display: inline-block;
+				text-decoration: none;
+				color: white;
+				font-family: '', serif;
+				font-weight: bolder;
+				font-size: 1.5rem;
+				font-style: oblique;
+				&:hover {
+					color: #dab71f;
+				}
+			}
+		}
+	}
+}
+.container{
+    font-family: $tipografia-general;
+    color: rgba(8, 37, 7, 0.911);
+    display:flex;
+    align-items: $centrado;
+    background-color: rgba(168, 189, 54, 0.473);
+    object-fit: $objet-fit;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+}

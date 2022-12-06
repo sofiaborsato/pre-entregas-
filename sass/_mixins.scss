@@ -1,0 +1,13 @@
+@mixin flex-direction-justificacion($d,$j:center,$a:center) {
+    display:flex;
+    flex-direction:$d;
+    justify-content:$j;
+    align-items:$a; 
+}
+
+@mixin textobasico($color,$tipografia-general,$centrado,$size) {
+    font-family: $tipografia-general;
+    font-size: $size;
+    color: $color;
+    text-align: $centrado;    
+}

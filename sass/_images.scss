@@ -1,0 +1,95 @@
+.boda{
+    background-image: url(./../assets/images/fotosofi.jpg.jpg);
+    background-repeat:no-repeat;
+    background-size:$objet-fit;
+    background-attachment: fixed;
+    
+    }
+    .boda1{
+        background-image: url(./../assets/images/fondodorado.jpg.jpg);
+    background-repeat:no-repeat;
+    background-size:$objet-fit;
+    background-attachment: fixed;
+    }
+    .boda2{
+        background-image: url(./../assets/images/fondodorado.jpg.jpg);
+        background-repeat:no-repeat;
+        background-size:$objet-fit;
+        background-attachment: fixed;     
+    }
+    .boda3{
+        background-image: url(./../assets/images/fondodorado.jpg.jpg);
+        background-repeat:no-repeat;
+        background-size:$objet-fit;
+        background-attachment: fixed; 
+    }
+    .boda4{
+        background-image: url(./../assets/images/fondodorado.jpg.jpg);
+        background-repeat:no-repeat;
+        background-size:$objet-fit;
+        background-attachment: fixed;  
+    }
+    .section-vision{
+        background-image: url(../assets/images/fondoverdecito.jpg.jpg);
+        background-repeat:no-repeat;
+        background-size:$objet-fit;
+        background-attachment: fixed;
+        display:inline-block;
+        z-index: -1;
+        filter:brightness(100%);
+        top:50%;
+        left:50%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .corazonrosa{
+        background-image: url(../assets/images/corazon.jpg.svg);
+        padding: 1%; 
+    }
+    .imgNovio{
+        text-align: right;
+    }
+    .img1´{
+        
+        justify-content:space-evenly;
+        align-items: c$centrado;
+        display: $display;
+        flex-wrap: nowrap;
+    }
+    .img2{
+        
+        justify-content:space-evenly;
+        align-items: $centrado;
+        display: $display;
+        flex-wrap: nowrap;  
+    }
+    .img3{
+        
+        justify-content:space-evenly;
+        align-items: $centrado;
+        display: $display;
+        flex-wrap: nowrap;
+    }
+    .Img{
+        border-color: map-get($estilos,color);
+    }
+    .boda1{
+        position:static;
+        top: 0px;
+        z-index: -10;
+    }
+    .boda2{
+        position:static;
+        top: 0px;
+        z-index: -10;
+    }
+    .boda3{
+        position:static;
+        top: 0px;
+        z-index: -10;
+    }
+    .boda4{
+        position:static;
+        top: 0px;
+        z-index: -10;
+    }

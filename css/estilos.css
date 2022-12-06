@@ -1,45 +1,81 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;1,400&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300;400;800&family=Poppins:wght@300&family=Roboto+Slab:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Hind:wght@400;500&family=Nanum+Myeongjo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Hind:wght@400;500&family=Inter:wght@300&family=Nanum+Myeongjo:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;1,400&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300;400;800&family=Poppins:wght@300&family=Roboto+Slab:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Hind:wght@400;500&family=Nanum+Myeongjo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Hind:wght@400;500&family=Inter:wght@300&family=Nanum+Myeongjo:wght@700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    }
-
- body{
-    height: 100vh;
-    width: 100%;
-    }
-
-.titulos{ 
-    background-color: rgba(231, 178, 220, 0.295);
-    text-align: center;
-    font-family: 'Nanum Myeongjo', serif;
-    background-image: url(../assets/images/corazonhuella.jpg.png);
-    padding: 7%;
-    position:static;
-  
-}
-.tituloprincipal{
-    color: rgb(202, 83, 83);
-    background-color: rgba(231, 178, 220, 0.295);
-    font-size: 3.1rem;
-    text-align: center;
-    font-family: 'Nanum Myeongjo', serif;
+.boda {
+  position: static;
+  top: 0px;
+  z-index: -10; }
+  .boda .logo {
     padding: 1%;
-    position:static;
+    height: 30%;
+    display: inline-block; }
 
-}
-.corazonrosa{
-    background-image: url(../assets/images/corazon.jpg.svg);
-    padding: 1%; 
-}
-nav ul{
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 50%;
+  position: relative; }
+  nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: '', serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-style: oblique; }
+    nav ul li a:hover {
+      color: #dab71f; }
+
+.texto-boda {
+  color: rgba(0, 0, 0, 0.836);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5%;
+  color: rgba(10, 10, 10, 0.959);
+  font-size: 4vh;
+  text-align: center; }
+  .texto-boda .texto-boda h2 {
+    color: #37691a;
+    margin: 25px;
+    padding-right: 3px; }
+
+.barra li {
+  display: inline-block;
+  text-align: right; }
+
+body {
+  height: 100vh;
+  width: 100%; }
+
+.titulos {
+  background-color: rgba(231, 178, 220, 0.295);
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+  background-image: url(../assets/images/corazonhuella.jpg.png);
+  padding: 7%;
+  position: static; }
+
+.tituloprincipal {
+  color: #ca5353;
+  background-color: rgba(231, 178, 220, 0.295);
+  font-size: 3.1rem;
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+  padding: 1%;
+  position: static; }
+
+.corazonrosa {
+  background-image: url(../assets/images/corazon.jpg.svg);
+  padding: 1%; }
+
+/*nav ul{
     list-style-type: none;
     display: inline-block;
     margin-left: 50%;
@@ -60,672 +96,536 @@ nav ul li a:hover {
    
 }
 
-.boda{
+/*.boda{
     position:static;
     top: 0px;
     z-index: -10;
-}
-.boda1{
-    position:static;
-    top: 0px;
-    z-index: -10;
-}
-.boda2{
-    position:static;
-    top: 0px;
-    z-index: -10;
-}
-.boda3{
-    position:static;
-    top: 0px;
-    z-index: -10;
-}
-.boda4{
-    position:static;
-    top: 0px;
-    z-index: -10;
-}
-.logo{
+}*/
+.boda1 {
+  position: static;
+  top: 0px;
+  z-index: -10; }
+
+.boda2 {
+  position: static;
+  top: 0px;
+  z-index: -10; }
+
+.boda3 {
+  position: static;
+  top: 0px;
+  z-index: -10; }
+
+.boda4 {
+  position: static;
+  top: 0px;
+  z-index: -10; }
+
+/*.logo{
     padding: 1%;   
     height: 30%;
-    display: inline-block;}
-
-
-.texto-boda{
+    display: inline-block;}*/
+/*.texto-boda{
     color: rgba(0, 0, 0, 0.836);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 5%;
     color: rgba(10, 10, 10, 0.959);
     font-size: 4vh;
     text-align: center;
-}
-
-.texto-boda h2{
+}*/
+/*.texto-boda h2{
     color: rgb(55, 105, 26);
     margin: 25px;
     padding-right: 3px;
-}
+}*/
+.imgNovio {
+  text-align: right; }
 
-.imgNovio{
-    text-align: right;
-}
-.img1´{
-    
-    justify-content:space-evenly;
-    align-items: center;
-    display: flex;
-    flex-wrap: nowrap;
-}
+.img1´ {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap; }
 
-.img2{
-    
-    justify-content:space-evenly;
-    align-items: center;
-    display: flex;
-    flex-wrap: nowrap;
-    
-}
-.img3{
-    
-    justify-content:space-evenly;
-    align-items: center;
-    display: flex;
-    flex-wrap: nowrap;
-}
-.texto-boda p{
-    line-height: 1.6;
-    letter-spacing: 1px;
-}
+.img2 {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap; }
 
+.img3 {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap; }
 
-.foot{
-    text-align: center;
-    letter-spacing: 2px;
-    position: relative;
-    text-decoration: none;
-    width: 100%;
-    }
+.texto-boda p {
+  line-height: 1.6;
+  letter-spacing: 1px; }
 
-.boda{
-background-image: url(./../assets/images/fotosofi.jpg.jpg);
-background-repeat:no-repeat;
-background-size:cover;
-background-attachment: fixed;
+.foot {
+  text-align: center;
+  letter-spacing: 2px;
+  position: relative;
+  text-decoration: none;
+  width: 100%; }
 
-}
-.boda1{
-    background-image: url(./../assets/images/fondodorado.jpg.jpg);
-background-repeat:no-repeat;
-background-size:cover;
-background-attachment: fixed;
+.boda {
+  background-image: url(./../assets/images/fotosofi.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
-}
+.boda1 {
+  background-image: url(./../assets/images/fondodorado.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
-.boda2{
-    background-image: url(./../assets/images/fondodorado.jpg.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-        
-}
-.boda3{
-    background-image: url(./../assets/images/fondodorado.jpg.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    
-    
-}
-.boda4{
-    background-image: url(./../assets/images/fondodorado.jpg.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment: fixed;  
-}
+.boda2 {
+  background-image: url(./../assets/images/fondodorado.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
-.foot{
-    
-    background-repeat:no-repeat;
-    background-size:cover;
-   
-}
+.boda3 {
+  background-image: url(./../assets/images/fondodorado.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
-.barra li{
+.boda4 {
+  background-image: url(./../assets/images/fondodorado.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.foot {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*.barra li{
     display: inline-block;
     text-align: right;
-}
- 
-.section-vision{
-    font-family: 'Hind', sans-serif;
-}
-.texto-boda p{
-    font-family: 'Hind', sans-serif;
-}
-.section-vision h3{
-    font-family: 'Nanum Myeongjo', serif;
-}
+}*/
+.section-vision {
+  font-family: 'Hind', sans-serif; }
+
+.texto-boda p {
+  font-family: 'Hind', sans-serif; }
+
+.section-vision h3 {
+  font-family: 'Nanum Myeongjo', serif; }
+
 .cajita {
-    background-color: rgba(51, 49, 49, 0.781);
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 1.5rem;
-    margin-left: 20px;
-    padding: 10px;
-    display:inline-block;
-    margin: 10px;
-    border-color: rgba(218, 184, 31, 0.473);
-    border:border-radius 10px;
-    
-}
-.texto-boda{
-    line-height: 1.6;
-    letter-spacing: 02px;
-    margin: 10px;
-    padding: 10px;
-    font-family: 'Nanum Myeongjo', serif;
-}     
-.texto-n{
-    line-height: 1.9;
-    letter-spacing: 02px;
-    text-align: center; 
-    font-family: 'Nanum Myeongjo', serif;
-    margin: 10%;
-    color:rgb(3, 61, 27);
-    font-size: 4rem;
-}
+  background-color: rgba(51, 49, 49, 0.781);
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  border-color: rgba(218, 184, 31, 0.473);
+  border: border-radius 10px; }
 
-.galeria{
-    background-color: rgba(248, 213, 231, 0.897);
-    width: 100%;
-    margin:auto;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 95%;
-    gap: 3px;
-    border-radius: 5px;
-    object-fit: cover;
-}
-.hijo{
-   object-fit: cover;
-   margin-bottom: 20px;
-   border-radius: 5px;
-   background-color: rgba(155, 132, 5, 0.849);
-}
-  
-.texto-boda{
-    margin-bottom: 15px;
-    font-size: 1.3rem;
-    font-family: 'Nanum Myeongjo', serif;
-    
-}
+.texto-boda {
+  line-height: 1.6;
+  letter-spacing: 02px;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Nanum Myeongjo', serif; }
 
-.texto-n{
-    font-size: 1.7rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+.texto-n {
+  line-height: 1.9;
+  letter-spacing: 02px;
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 10%;
+  color: #033d1b;
+  font-size: 4rem; }
 
-.row{
-    line-height: 1.6;
-    letter-spacing: 02px;
-    font-family: 'Nanum Myeongjo', serif;
-    border-color: rgb(3, 61, 27);
-    border-radius: 3px;
-}
+.galeria {
+  background-color: rgba(248, 213, 231, 0.897);
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 95%;
+  gap: 3px;
+  border-radius: 5px;
+  object-fit: cover; }
 
-.Img{
-    border-color: black;
-}
+.hijo {
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: rgba(155, 132, 5, 0.849); }
 
-.p{
-    font-family: 'Nanum Myeongjo', serif;
-    line-height: 1.6;
-    letter-spacing: 02px;
-    color: rgba(26, 27, 25, 0.685);
-    margin: 10px;
-    padding-right: 70px; 
-}
-    
-.textoregalo{
-    font-family: 'Nanum Myeongjo', serif;
-    color: rgba(12, 97, 12, 0.959);
-}
+.texto-boda {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-family: 'Nanum Myeongjo', serif; }
 
-.buzon{
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: 2rem;
-    background-color: aqua;
-    
-}
-.form-label{
-    font-family: 'Nanum Myeongjo', serif;
-    color: rgba(75, 69, 61, 0.788);
-    border-bottom: 3px;
+.texto-n {
+  font-size: 1.7rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-}
-.container{
-    font-family: 'Nanum Myeongjo', serif;
-    color: rgba(8, 37, 7, 0.911);
-    display:flex;
-    align-items: center;
-    background-color: rgba(168, 189, 54, 0.473);
-    object-fit: cover;
-    height: 100vh;
-    width: 100%;
-    flex-wrap: wrap;
-}
+.row {
+  line-height: 1.6;
+  letter-spacing: 02px;
+  font-family: 'Nanum Myeongjo', serif;
+  border-color: #033d1b;
+  border-radius: 3px; }
 
-.esp1{
-    margin: 5%;
-    padding: 5%;
-}
+.Img {
+  border-color: black; }
 
-.s{
-    
-    text-align: left;
-    font-family: 'Nanum Myeongjo', serif;
-    margin: 10%;
-} 
+.p {
+  font-family: 'Nanum Myeongjo', serif;
+  line-height: 1.6;
+  letter-spacing: 02px;
+  color: rgba(26, 27, 25, 0.685);
+  margin: 10px;
+  padding-right: 70px; }
 
-.sofia{
-    text-align: left;
-    color: rgba(0, 0, 0, 0.89);
-    margin: 10%;
-}
-.fotografias{
-    justify-content: center;
-    text-align: center;
-    width: 90%;
-    margin: 6%; 
-    transition: transform 2s;
-}
+.textoregalo {
+  font-family: 'Nanum Myeongjo', serif;
+  color: rgba(12, 97, 12, 0.959); }
 
-.elladijosi{
-    color: rgba(201, 27, 100, 0.89);
-    font-family: 'Nanum Myeongjo', serif;
-    text-align: center;
-}
+.buzon {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2rem;
+  background-color: aqua; }
 
-.elladijosi11{
-    color: rgba(8, 37, 7, 0.911);
-    margin: 80%;
-    padding: 5%;
-    font-size: 2rem;
-    font-family: 'Nanum Myeongjo', serif;
-    text-align: left;
-}
+.form-label {
+  font-family: 'Nanum Myeongjo', serif;
+  color: rgba(75, 69, 61, 0.788);
+  border-bottom: 3px; }
+
+.container {
+  font-family: 'Nanum Myeongjo', serif;
+  color: rgba(8, 37, 7, 0.911);
+  display: flex;
+  align-items: center;
+  background-color: rgba(168, 189, 54, 0.473);
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+  flex-wrap: wrap; }
+
+.esp1 {
+  margin: 5%;
+  padding: 5%; }
+
+.s {
+  text-align: left;
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 10%; }
+
+.sofia {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.89);
+  margin: 10%; }
+
+.fotografias {
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin: 6%;
+  transition: transform 2s; }
+
+.elladijosi {
+  color: rgba(201, 27, 100, 0.89);
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center; }
+
+.elladijosi11 {
+  color: rgba(8, 37, 7, 0.911);
+  margin: 80%;
+  padding: 5%;
+  font-size: 2rem;
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: left; }
 
 .fott {
-    height: 10vh;
-    object-fit: cover;
-    width: 100%; 
-    
-}
- 
-.row{
-    width: 80%;
-    margin:auto;
-}
-    
-.texto-n{
-    font-family: 'Nanum Myeongjo', serif;
-}
+  height: 10vh;
+  object-fit: cover;
+  width: 100%; }
 
-.casamiento{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 5%;
-    color: rgba(16, 17, 16, 0.959);
-    font-size: 3vh;
-    text-align: left;
-}
-.intro{
-        font-family: 'Nanum Myeongjo', serif;
-        margin: 5%;
-        color: rgba(207, 62, 36, 0.829);
-        font-size: 1.6rem;
-        text-align: center;
-    }
+.row {
+  width: 80%;
+  margin: auto; }
 
-.textof{
-    font-family: 'Nanum Myeongjo', serif;
-    color: rgba(8, 37, 7, 0.911);
-}
+.texto-n {
+  font-family: 'Nanum Myeongjo', serif; }
 
-.elladijosi{
-    margin: auto;
-}
-.elladijosi11{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2.5vh;
-    margin: auto;
-    text-align: center;
-}
-.vision{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 5%;
-    color: rgba(12, 97, 12, 0.959);
-    font-size: 4vh;
-}
+.casamiento {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5%;
+  color: rgba(16, 17, 16, 0.959);
+  font-size: 3vh;
+  text-align: left; }
 
-.texto-boda5{
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: 2.5vh;
-    color: #030202e1;
-    text-align: center;
-}
+.intro {
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 5%;
+  color: rgba(207, 62, 36, 0.829);
+  font-size: 1.6rem;
+  text-align: center; }
 
-.texto-boda2{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 5%;
-    color: rgba(16, 17, 16, 0.959);
-    font-size: 3vh;
-    text-align: center;
-}
-.for{
-    width: 50%;
-}
+.textof {
+  font-family: 'Nanum Myeongjo', serif;
+  color: rgba(8, 37, 7, 0.911); }
 
-.textoregalo{ 
-    font-size: 2.5rem;
-    margin: auto;
-    text-align: center;
-}
+.elladijosi {
+  margin: auto; }
 
-.textob{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.elladijosi11 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5vh;
+  margin: auto;
+  text-align: center; }
+
+.vision {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5%;
+  color: rgba(12, 97, 12, 0.959);
+  font-size: 4vh; }
+
+.texto-boda5 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2.5vh;
+  color: #030202e1;
+  text-align: center; }
+
+.texto-boda2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5%;
+  color: rgba(16, 17, 16, 0.959);
+  font-size: 3vh;
+  text-align: center; }
+
+.for {
+  width: 50%; }
+
+.textoregalo {
+  font-size: 2.5rem;
+  margin: auto;
+  text-align: center; }
+
+.textob {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: brown; }
+
+.container-fluid {
+  background-color: rgba(241, 241, 241, 0.719); }
+
+.container-fluid1 {
+  background-color: rgba(230, 228, 225, 0.288); }
+
+.card-title {
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  color: #f5f1ec;
+  background-color: rgba(61, 59, 59, 0.836); }
+
+.historia {
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: left;
+  font-size: larger; }
+
+.iframe {
+  text-align: center;
+  margin: 4%;
+  width: 92%; }
+
+.video {
+  text-align: center;
+  margin: 15%;
+  width: 70%;
+  justify-content: center; }
+
+.texto-bodav {
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+  color: rgba(8, 37, 7, 0.911);
+  padding: 1%; }
+
+.texto-bodau {
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+  color: rgba(8, 37, 7, 0.911); }
+
+.texto-boda4 {
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 5%;
+  color: rgba(16, 17, 16, 0.959);
+  font-size: 4vh;
+  text-align: left; }
+
+.matrimonio {
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 5%;
+  color: rgba(16, 17, 16, 0.959);
+  text-align: center;
+  font-size: 3rem; }
+
+.vision {
+  font-family: 'Nanum Myeongjo', serif;
+  color: rgba(16, 17, 16, 0.959);
+  font-size: 2rem;
+  text-align: center;
+  width: 85%; }
+
+.btn {
+  color: rgba(27, 26, 26, 0.726);
+  margin: auto;
+  justify-content: right;
+  background-image: linear-gradient(to right top, #acbbaa, #c0b8a1, #d3b4a6, #dab1b9, #ceb5d2);
+  font-size: x-large;
+  width: 25%; }
+
+.form-label {
+  color: brown; }
+
+.form-check-label {
+  color: #b31978; }
+
+.historia {
+  padding: 10%;
+  text-align: center;
+  justify-content: center;
+  width: 90%; }
+
+.for {
+  margin: auto;
+  width: 70%;
+  height: auto; }
+
+.P {
+  text-align: center; }
+
+.card {
+  background-color: rgba(187, 70, 70, 0.205);
+  color: #fffefb;
+  font-family: 'Nanum Myeongjo', serif; }
+
+.card-body {
+  color: #31302f; }
+
+.card-text {
+  color: #31302f; }
+
+.text-muted {
+  color: #31302f; }
+
+.card-body {
+  color: bisque; }
+
+.card-text {
+  font-size: 1rem; }
+
+.card-title {
+  font-size: 1.5rem; }
+
+.section-vision {
+  background-image: url(../assets/images/fondoverdecito.jpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: inline-block;
+  z-index: -1;
+  filter: brightness(100%);
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%; }
+
+@media screen and (min-width: 412px) {
+  .casamiento {
+    font-size: 1.3rem;
+    color: #353232; }
+  .matrimonio {
+    font-size: 1.2rem;
+    color: black; }
+  .vision {
+    font-size: 1.2rem;
+    color: black;
+    background-color: #ddadc94f; }
+  .texto-n {
+    font-size: rem; } }
+
+@media screen and (min-width: 412px) {
+  .texto-boda2 {
+    font-size: 1.2rem; }
+  .texto-bodau {
     font-size: 1.5rem;
-    text-align: center;
-    color: brown;
-}
-
-.container-fluid{
-    background-color: rgba(241, 241, 241, 0.719);
-}
-.container-fluid1{
-    background-color: rgba(230, 228, 225, 0.288);
-}
-.card-title{
-    font-family: 'Nanum Myeongjo', serif;
-    text-align:center;
-    color: rgb(245, 241, 236);
-    background-color: rgba(61, 59, 59, 0.836); 
-}
-
-.historia{
-    font-family: 'Nanum Myeongjo', serif;
-    text-align: left;
-    font-size: larger;
-}
- 
-.iframe{
-    text-align: center;
-    margin: 4%;
-    width: 92%;
-}
-
-.video{
-    text-align: center;
-    margin: 15%;
-    width: 70%;
-    justify-content: center;
-    
-}
-.texto-bodav{
-    text-align: center;
-    font-family: 'Nanum Myeongjo', serif;
-    color: rgba(8, 37, 7, 0.911);
-    padding: 1%;
-}
-
-.texto-bodau{
-    text-align: center;
-    font-family: 'Nanum Myeongjo', serif;
-    color: rgba(8, 37, 7, 0.911);
-}
-
-.texto-boda4{
-    font-family: 'Nanum Myeongjo', serif;
-    margin: 5%;
-    color: rgba(16, 17, 16, 0.959);
-    font-size: 4vh;
-    text-align: left;
-}
-
-.matrimonio{
-    font-family: 'Nanum Myeongjo', serif;
-    margin: 5%;
-    color: rgba(16, 17, 16, 0.959);
-    text-align: center;
-    font-size: 3rem;
-}
-
-.vision{
-    font-family: 'Nanum Myeongjo', serif;
-    color: rgba(16, 17, 16, 0.959);
+    color: #9b2b1c; }
+  .texto-boda4 {
+    font-size: 1.3rem;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .texto-bodav {
+    font-size: 1.5rem;
+    color: #9b2b1c; }
+  .video {
     font-size: 2rem;
-    text-align: center;
-    width: 85%;
-    
-}
-.btn{
-    color: rgba(27, 26, 26, 0.726);
-    margin: auto;
-    justify-content: right;
-    background-image: linear-gradient(to right top, #acbbaa, #c0b8a1, #d3b4a6, #dab1b9, #ceb5d2);
-    font-size: x-large;
-    width: 25%;  
-}
-.form-label{
-    color: brown;
-}
-.form-check-label{
-    color: rgb(179, 25, 120);
-}
+    z-index: -1; } }
 
-.historia{
-    padding: 10%;
-    text-align: center;
-    justify-content: center;
-    width: 90%;
+@media screen and (min-width: 412px) {
+  .elladijosi11 {
+    font-size: 1.1rem;
+    color: black; }
+  .s {
+    font-size: 2.5rem;
+    color: #a12b1c;
+    text-align: center; }
+  .sofia {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center; }
+  .fotografias {
+    font-size: 4rem;
+    text-align: left; }
+  .card-title {
+    font-size: 1.2rem;
+    z-index: -1; } }
 
-}
-.for{
-   margin: auto;
-   width: 70%;
-   height: auto;
-}
-
-.P{
-    text-align: center;
-}
-.card{
-    background-color: rgba(187, 70, 70, 0.205);
-    color: rgb(255, 254, 251);
-    font-family: 'Nanum Myeongjo', serif;
-    
-}
-
-.card-body{
-    color: rgb(49, 48, 47);
-}
-
-.card-text{
-    color: rgb(49, 48, 47);
-}
-.text-muted{
-    color: rgb(49, 48, 47);
-}
-
-.card-body{
-    color: bisque;
-}
-.card-text{
+@media screen and (min-width: 412px) {
+  .texto-boda {
+    font-size: 1rem; }
+  .texto-boda5 {
     font-size: 1rem;
-}
-.card-title{
-    font-size: 1.5rem;
-}
-.section-vision{
-    background-image: url(../assets/images/fondoverdecito.jpg.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    display:inline-block;
-    z-index: -1;
-    filter:brightness(100%);
-    top:50%;
-    left:50%;
-    min-width: 100%;
-    min-height: 100%;
-}
+    color: #4d0f3a;
+    text-align: center; } }
 
+@media screen and (min-width: 412px) {
+  .texto-boda {
+    font-size: 1.2rem; }
+  .texto-boda5 {
+    font-size: 1.2rem;
+    color: #9b2b1c;
+    text-align: center; } }
 
-@media screen and  (min-width: 412px) {
-    .casamiento{
-        font-size: 1.3rem;
-        color: rgb(53, 50, 50);
-
-    }
-    .matrimonio{
-        font-size: 1.2rem;
-        color: rgb(0, 0, 0);
-
-    }
-    .vision{
-        font-size: 1.2rem;
-        color: rgb(0, 0, 0);
-        background-color: #ddadc94f;
-        
-
-    }
-    .texto-n{
-        font-size: rem;
-       
-
-    }
-}
-
-@media screen and  (min-width: 412px){
-    .texto-boda2{
-        font-size: 1.2rem;
-
-    }
-    .texto-bodau{
-        font-size: 1.5rem;
-        color: rgb(155, 43, 28);
-        
-
-    }
-    .texto-boda4{
-        font-size: 1.3rem;
-        color: rgb(0, 0, 0);
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
-        
-
-    }
-    .texto-bodav{
-        font-size: 1.5rem;
-        color: rgb(155, 43, 28);
-       
-
-    }
-    .video {
-        font-size: 2rem;
-        z-index: -1;
-        
-}
-}
-
-@media screen and  (min-width: 412px){
-    .elladijosi11{
-        font-size: 1.1rem;
-        color: black;
-
-    }
-    .s{
-        font-size: 2.5rem;
-        color: rgb(161, 43, 28);
-        text-align: center;
-
-    }
-    .sofia{
-        font-size: 1.2rem;
-        color: rgb(0, 0, 0);
-        text-align: center;
-
-    }
-    .fotografias{
-        font-size: 4rem;
-        text-align: left;
-        
-    }
-    .card-title{
-        font-size: 1.2rem;
-        z-index: -1;
-        
-}
-}
- 
-
-@media screen and  (min-width: 412px) {
-    .texto-boda{
-        font-size: 1rem;
-
-    }
-    .texto-boda5{
-        font-size: 1rem;
-        color: rgb(155, 43, 28);
-        text-align: center;
-
-    }
-    
-}
-@media screen and  (min-width: 412px) {
-    .texto-boda{
-        font-size: 1.2rem;
-
-    }
-    .texto-boda5{
-        font-size: 1.2rem;
-        color: rgb(155, 43, 28);
-        text-align: center;
-
-    }
-    
-}
-   
-@media screen and  (min-width: 412px){
-    .textob{
-        font-size: 1.6rem;
-        text-align: center;
-
-    }
-    .texton{
-        font-size: 1rem;
-        color: rgb(155, 43, 28);
-        text-align: center;
-    }
-    .P{
-        font-size: 1.2rem;
-        text-align: center;
-        
-
-    }
-    .card-title{
-        font-size: 1.4rem;
-        
-
-    }
-    .card-text{
-        font-size: 1.2rem;
-
-    }
-    .for{
-        font-size: 1.4rem;
-
-    }
-}
-
-
+@media screen and (min-width: 412px) {
+  .textob {
+    font-size: 1.6rem;
+    text-align: center; }
+  .texton {
+    font-size: 1rem;
+    color: #9b2b1c;
+    text-align: center; }
+  .P {
+    font-size: 1.2rem;
+    text-align: center; }
+  .card-title {
+    font-size: 1.4rem; }
+  .card-text {
+    font-size: 1.2rem; }
+  .for {
+    font-size: 1.4rem; } }
