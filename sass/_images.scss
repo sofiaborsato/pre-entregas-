@@ -3,31 +3,35 @@
     background-repeat:no-repeat;
     background-size:$objet-fit;
     background-attachment: fixed;
-    
+    filter: brightness(90%);
     }
     .boda1{
-        background-image: url(./../assets/images/fondodorado.jpg.jpg);
+        background-image: url(./../assets/images/fotosofi.jpg.jpg);
     background-repeat:no-repeat;
     background-size:$objet-fit;
     background-attachment: fixed;
+    filter: brightness(90%);
     }
     .boda2{
         background-image: url(./../assets/images/fondodorado.jpg.jpg);
         background-repeat:no-repeat;
         background-size:$objet-fit;
-        background-attachment: fixed;     
+        background-attachment: fixed; 
+        filter: brightness(90%);    
     }
     .boda3{
         background-image: url(./../assets/images/fondodorado.jpg.jpg);
         background-repeat:no-repeat;
         background-size:$objet-fit;
         background-attachment: fixed; 
+        filter: brightness(90%);
     }
     .boda4{
-        background-image: url(./../assets/images/fondodorado.jpg.jpg);
+        background-image: url(./../assets/images/fotosofi.jpg.jpg);
         background-repeat:no-repeat;
         background-size:$objet-fit;
         background-attachment: fixed;  
+        filter: brightness(90%);
     }
     .section-vision{
         background-image: url(../assets/images/fondoverdecito.jpg.jpg);
@@ -45,6 +49,8 @@
     .corazonrosa{
         background-image: url(../assets/images/corazon.jpg.svg);
         padding: 1%; 
+        filter: brightness(80%);
+        
     }
     .imgNovio{
         text-align: right;
@@ -69,9 +75,6 @@
         align-items: $centrado;
         display: $display;
         flex-wrap: nowrap;
-    }
-    .Img{
-        border-color: map-get($estilos,color);
     }
     .boda1{
         position:static;

@@ -47,10 +47,13 @@
 }
 .texto-boda p{
     font-family: 'Hind', sans-serif;
+    font-size: 1rem;
 }
 .section-vision h3{
     font-family: $tipografia-general;
+    font-size: 2rem;
 }
+
 .cajita {
     background-color: rgba(51, 49, 49, 0.781);
     text-decoration: none;
@@ -210,17 +213,12 @@
     font-size: 4vh;
 }
 
-.texto-boda5{
-    @include textobasico(#030202e1,$tipografia-general,$centrado,2.5vh);
-   
-}
-
 .texto-boda2{
     font-family:$tipografia-alternativa;
     margin: 5%;
     color: rgba(16, 17, 16, 0.959);
     font-size: 3vh;
-    text-align: $centrador;
+    text-align: $centrado;
 }
 .for{
     width: 50%;
@@ -284,19 +282,23 @@
     font-size: 4vh;
     text-align: left;
 }
+
+.texto-boda5{
+    text-align: center;
+}
 .matrimonio{
     font-family: $tipografia-general;
     margin: 5%;
     color: rgba(16, 17, 16, 0.959);
     text-align: $centrado;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .vision{
     font-family: $tipografia-general;
     color: rgba(16, 17, 16, 0.959);
-    font-size: 2rem;
     text-align: $centrado;
-    width: 85%;  
+    width: 85%; 
+    font-size: 1.3rem; 
 }
 .btn{
     color: rgba(27, 26, 26, 0.726);
