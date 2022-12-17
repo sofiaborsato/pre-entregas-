@@ -4,6 +4,8 @@
     background-size:$objet-fit;
     background-attachment: fixed;
     filter: brightness(90%);
+    width: 100%;
+    display: flex;
     }
     .boda1{
         background-image: url(./../assets/images/fotosofi.jpg.jpg);
