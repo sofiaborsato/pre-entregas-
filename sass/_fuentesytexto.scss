@@ -47,7 +47,7 @@
 }
 .texto-boda p{
     font-family: 'Hind', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .section-vision h3{
     font-family: $tipografia-general;
@@ -182,8 +182,8 @@
     font-family:$tipografia-alternativa;
     margin: 5%;
     color: rgba(16, 17, 16, 0.959);
-    font-size: 3vh;
-    text-align: left;
+    font-size: 2.6vh;
+    text-align: center;
 }
 .intro{
         font-family: $tipografia-general;
@@ -269,18 +269,20 @@
     font-family: $tipografia-general;
     color: rgba(8, 37, 7, 0.911);
     padding: 1%;
+    font-size: 1.3rem;
 }
 .texto-bodau{
     text-align: $centrado;
     font-family: $tipografia-general;
-    color: rgba(8, 37, 7, 0.911);
+    color: rgba(190, 101, 29, 0.911);
+    font-size: 2rem;
 }
 .texto-boda4{
     font-family: $tipografia-general;
     margin: 5%;
-    color: rgba(16, 17, 16, 0.959);
-    font-size: 4vh;
-    text-align: left;
+    color: rgba(15, 15, 14, 0.959);
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .texto-boda5{
