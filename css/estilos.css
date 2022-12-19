@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*maps*/
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,17 @@
     color: black;
     background-color: #ddadc94f; }
   .texto-n {
-    font-size: rem; } }
+    font-size: rem; }
+  .boda {
+    width: 100%; }
+  .boda1 {
+    width: 100%; }
+  .boda2 {
+    width: 100%; }
+  .boda3 {
+    width: 100%; }
+  .boda4 {
+    width: 100%; } }
 
 @media screen and (min-width: 412px) {
   .texto-boda2 {
@@ -94,7 +103,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  filter: brightness(90%); }
+  filter: brightness(90%);
+  width: 100%;
+  display: flex; }
 
 .boda1 {
   background-image: url(./../assets/images/fotosofi.jpg.jpg);
