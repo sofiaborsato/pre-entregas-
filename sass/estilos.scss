@@ -13,7 +13,7 @@
     z-index: 1; }
     .card:hover {
       filter: brightness(100%);
-      transform: scale(1.2);
+      transform: scale(1.1);
       z-index: 10;
       overflow: hidden;
       cursor: zoom-in;
@@ -26,7 +26,7 @@
       align-self: center; }
     .card:focus {
       filter: brightness(100%);
-      transform: scale(1.2);
+      transform: scale(1.1);
       z-index: 10;
       cursor: zoom-in;
       align-self: center; }

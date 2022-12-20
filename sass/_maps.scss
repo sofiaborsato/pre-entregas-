@@ -1,0 +1,10 @@
+$estilos: (
+color:black;
+centro:center;
+tfuente:50px;
+1rem: 1rem;
+);
+
+.matrimonio{
+    border-color: map-get($estilos);
+}
