@@ -99,14 +99,15 @@
     font-size: 1.4rem; } }
 
 .boda {
-  background-image: url(./../assets/images/fotosofi.jpg.jpg);
+  background-image: url(./../assets/images/anillodebodas.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
-  filter: brightness(90%); }
+  filter: brightness(100%);
+  background-size: cover;
+  width: 100%; }
 
 .boda1 {
-  background-image: url(./../assets/images/fotosofi.jpg.jpg);
+  background-image: url(./../assets/images/fondodorado.jpg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -127,14 +128,14 @@
   filter: brightness(90%); }
 
 .boda4 {
-  background-image: url(./../assets/images/fotosofi.jpg.jpg);
+  background-image: url(./../assets/images/fondodorado.jpg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   filter: brightness(90%); }
 
 .section-vision {
-  background-image: url(../assets/images/fondoverdecito.jpg.jpg);
+  background-image: url(../assets/images/rosas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
